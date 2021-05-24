@@ -32,7 +32,7 @@ export default function Chart() {
 
     return (
         <React.Fragment>
-            <Title>Today</Title>
+            <Title>Bitcoin in last 24 hours</Title>
             <ResponsiveContainer>
                 <LineChart
                     data={data}
